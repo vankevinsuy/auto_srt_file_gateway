@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        
+        {
+            "name": "file gateway",
+            "type": "python",
+            "request": "launch",
+            "program": "receive.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+    ]
+}
