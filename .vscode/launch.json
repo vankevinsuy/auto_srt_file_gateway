@@ -5,9 +5,12 @@
             "name": "file gateway",
             "type": "python",
             "request": "launch",
-            "program": "receive.py",
+            "program": "main.py",
             "console": "integratedTerminal",
-            "justMyCode": true
+            "justMyCode": true,
+            "env": {
+                "PUBSUB_HOSTNAME": "localhost"
+            }
         },
     ]
 }
